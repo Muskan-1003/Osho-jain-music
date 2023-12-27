@@ -5,20 +5,20 @@ import img3 from "../assets/img3.png";
 
 const Grid = () => {
   return (
-    <div className=" bg-black w-full h-[700px]">
-      <div className="grid grid-rows-3 grid-flow-col gap-4 ">
+    <div className=" bg-black w-full  lg:h-[700px] ">
+      <div className="pt-8 pl-12 grid  lg:grid-flow-col gap-4 lg:grid-rows-3">
         <img
           src={img1}
           alt="img1"
           height={700}
           width={550}
-          className="mt-8 row-span-3 ml-16 rounded-lg hover:scale-105 
-          transition-transform duration-300 ease-in-out"
+          className=" row-span-3 rounded-lg hover:scale-105 
+          transition-transform duration-300 ease-in-out lg:h-"
         />
         <img
           src={img2}
           alt="img2"
-          className="col-span-2 mt-8 ml-12 rounded-lg hover:scale-105 
+          className="col-span-2 lg:mt-8 lg:ml-12 rounded-lg hover:scale-105 
           transition-transform duration-300 ease-in-out"
         />
         <img

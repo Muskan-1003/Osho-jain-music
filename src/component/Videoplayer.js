@@ -8,9 +8,9 @@ const Videoplayer = () => {
       <img
         src={img4}
         alt="img4"
-        height={500}
-        width={1343}
-        className="rounded-xl"
+        // height={500}
+        // width={1343}
+        className="rounded-xl w-screen	 h-screen	 "
       />
       <img
         src={play}
